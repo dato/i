@@ -64,7 +64,7 @@ bool contrato_vencido1(struct fecha_contrato *fecha_firma) {
 }
 
 
-// Versión 2 (❌?)
+// Versión 2 (❌)
 bool contrato_vencido2(struct fecha_contrato *fecha_firma) {
     int duracion = calcular_duracion(fecha_firma);
     bool vencido = false;
