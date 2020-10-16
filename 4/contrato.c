@@ -120,7 +120,7 @@ bool contrato_vencido4(struct fecha_contrato *firmado) {
 }
 
 
-// Versión 5 (✓?)
+// Versión 5 (✓, ✓✓?)
 bool contrato_vencido(struct fecha_contrato *firma) {
     bool old = firma->ano < 2020 || (firma->ano == 2020 && firma->mes < JULIO);
 
